@@ -1,0 +1,267 @@
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+}
+
+table, td, tr ,th{
+    text-align: center;
+    border-collapse: collapse;
+    font-size:14px;
+    border: 1px solid #A9A9A9;
+    padding:10px 5px;
+    border-style: solid;
+    overflow:hidden;
+    word-break:normal;
+    border-color: #A9A9A9;
+}
+
+#lado2{
+    border-left: 1px solid #A9A9A9;
+}
+
+#corpo{
+    width: 100%;
+    
+}
+
+.nowrap{white-space: nowrap;}
+
+    .btn-file {
+		  position: relative;
+		  overflow: hidden;
+		}
+		
+		.btn-file input[type=file] {
+		  position: absolute;
+		  top: 0;
+		  right: 0;
+		  min-width: 100%;
+		  min-height: 100%;
+		  font-size: 100px;
+		  text-align: right;
+		  filter: alpha(opacity=0);
+		  opacity: 0;
+		  outline: none;
+		  background: white;
+		  cursor: inherit;
+		}
+.formulario{
+	margin: 0 auto;
+	width: 80%;
+	border:1px red solid;
+}
+.formulario input, select{
+	float: right;
+}
+
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+
+/****** LOGIN MODAL ******/
+.loginmodal-container {
+  padding: 30px;
+  /*max-width: 350px;*/
+  width: 100% !important;
+  background-color: #F7F7F7;
+  margin: 0 auto;
+  border-radius: 2px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  font-family: roboto;
+}
+
+.loginmodal-container h1 {
+  text-align: center;
+  font-size: 1.8em;
+  font-family: roboto;
+}
+
+.loginmodal-container input[type=submit] {
+  width: 100%;
+  display: block;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.loginmodal-container input[type=text], input[type=password],select,input[type=email] {
+  height: 44px;
+  font-size: 16px;
+  width: 100%;
+  margin-bottom: 10px;
+  -webkit-appearance: none;
+  background: #fff;
+  border: 1px solid #d9d9d9;
+  border-top: 1px solid #c0c0c0;
+  /* border-radius: 2px; */
+  padding: 0 8px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+.loginmodal-container input[type=text]:hover, input[type=password]:hover,select,input[type=email]:hover, select:hover {
+  border: 1px solid #b9b9b9;
+  border-top: 1px solid #a0a0a0;
+  -moz-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+  -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+  box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+}
+
+.loginmodal {
+  text-align: center;
+  font-size: 14px;
+  font-family: 'Arial', sans-serif;
+  font-weight: 700;
+  height: 36px;
+  padding: 0 8px;
+/* border-radius: 3px; */
+/* -webkit-user-select: none;
+  user-select: none; */
+}
+
+.loginmodal-submit {
+  /* border: 1px solid #3079ed; */
+  border: 0px;
+  color: #fff;
+  text-shadow: 0 1px rgba(0,0,0,0.1); 
+  background-color: #4d90fe;
+  padding: 17px 0px;
+  font-family: roboto;
+  font-size: 14px;
+  /* background-image: -webkit-gradient(linear, 0 0, 0 100%,   from(#4d90fe), to(#4787ed)); */
+}
+
+.loginmodal-submit:hover {
+  /* border: 1px solid #2f5bb7; */
+  border: 0px;
+  text-shadow: 0 1px rgba(0,0,0,0.3);
+  background-color: #357ae8;
+  /* background-image: -webkit-gradient(linear, 0 0, 0 100%,   from(#4d90fe), to(#357ae8)); */
+}
+
+.loginmodal-container a {
+  text-decoration: none;
+  color: #666;
+  font-weight: 400;
+  text-align: center;
+  display: inline-block;
+  opacity: 0.6;
+  transition: opacity ease 0.5s;
+} 
+
+.login-help{
+  font-size: 12px;
+}
+
+#direita{
+  width: 49%;
+  float: right;
+  
+}
+#esquerda{
+  width: 49%;
+  
+}
+#centralizado{
+  width: 100%;
+  text-align: center;
+  
+}
+
+.direitaDuelo{
+  width: 32%;
+  float:left;
+   padding: 1px;
+  text-align: center;
+  min-width: 50px;
+}
+.esquerdaDuelo{
+  width: 32%;
+   padding: 1px;
+  text-align: center;
+  float:left;
+  
+  min-width: 50px;
+}
+.centralizadoDuelo{
+  width: 32%;
+  text-align: center;
+  padding: 1px;
+  float:left;
+  
+  min-width: 50px;
+}
+
+.jumbotron2{
+  padding-bottom: 0.05px ;
+  padding-top:  0.05px;
+  margin-top:10px;
+  margin-bottom:10px;
+  clear: both;
+}
+
+.texto {
+  display: block;
+  width: 90%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.textoDuelo {
+  font-size: 3vw;
+  display: block;
+   overflow: hidden;
+   
+  text-overflow: ellipsis;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.circulo{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	overflow: hidden;
+	margin: 0 auto;
+	transition: 0.3s ease;
+}
+
+.circulo:hover{
+	transform: rotateY(180deg);
+}
+
+.circulo-pequeno {
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	margin: 10px;
+	float: left;
+	animation: circulo 1s linear infinite;
+}
+
+.circulo-pequeno.lime {
+	animation: circulo-inverno 1s linear infinite;
+}
+.centralizadoMain{
+  width: 100%;
+  
+}
+
+@keyframes circulo {
+	from {
+		transform: rotate(0deg) translateX(30px);
+	} to {
+		transform: rotate(360deg) translateX(30px);
+	}
+}
+
+@keyframes circulo-inverno {
+	from {
+		transform: rotate(0deg) translateX(30px);
+	} to {
+		transform: rotate(-360deg) translateX(30px);
+	}
+}
+		
